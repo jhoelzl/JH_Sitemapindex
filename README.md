@@ -1,5 +1,5 @@
 # JH_Sitemapindex
-Creates a Sitemap Index File in Magento root folder that links to all generated Sitemaps
+Creates a Sitemap Index File in Magento root folder that links to all generated Sitemaps throughM [MageWorx_XSitemap](http://www.mageworx.com/extended-sitemap-magento-extension.html).
 
 
 ## Installation
