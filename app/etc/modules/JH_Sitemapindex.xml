@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <JH_Sitemapindex>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+            <MageWorx_XSitemap />
+            </depends>
+        </JH_Sitemapindex>
+    </modules>
+</config>

@@ -1,0 +1,17 @@
+{	
+	"version": "0.0.9",
+    "name": "jh/sitemapindex",
+    "license": "GPLv3",
+    "type": "magento-module",
+    "description": "Creates a Sitemap Index File that links to all generated Sitemaps through MageWorx_XSitemap",
+    "homepage": "https://github.com/jhoelzl/JH_Sitemapindex",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Josef Hoelzl",
+            "email":"hoelzl.josef@gmail.com"
+        }
+    ]
+}

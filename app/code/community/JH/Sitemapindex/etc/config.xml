@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<JH_Sitemapindex>
+		</JH_Sitemapindex>
+	</modules>
+
+	<global>
+		<helpers>
+			<jh_sitemapindex>
+				<class>JH_Sitemapindex_Helper</class>
+			</jh_sitemapindex>
+		</helpers>
+		<models>
+			<jh_sitemapindex>
+				<class>JH_Sitemapindex_Model</class>
+			</jh_sitemapindex>
+		</models>
+	</global>
+
+	<crontab>
+		<jobs>
+			<jh_sitemapindex>
+				<schedule><cron_expr>15 1 * * *</cron_expr></schedule>
+				<run><model>jh_sitemapindex/observer::createIndex</model></run>
+			</jh_sitemapindex>
+		</jobs>
+	</crontab>
+</config>
